@@ -10,13 +10,14 @@ body {
 .weather {
   width: 320px;
   height: 568px;
-  background: url(../img/clear-skies.jpg) 0 0 no-repeat;
+  background: url(../img/thunderstorm.jpg) 0 0 no-repeat;
   margin: 100px auto;
 }
 
 .group {
   padding: 15px;
-  border-bottom: 1px solid #b1dafa;
+  border-bottom: 1px solid #94759C;
+
 }
 
 /* Now */
@@ -33,3 +34,95 @@ body {
 .now h2 {
   font-size: 72px;
 }
+
+.today {
+  text-align: right;
+}
+
+.today h3 {
+  float: left;
+}
+
+.current h4 {
+  font-weight: bold;
+}
+
+.today h3 {
+  font-weight: bold;
+}
+
+.hour {
+  float: left;
+  padding: 0px 13px 10px 13px;
+}
+
+.week {
+  text-align: right;
+  padding-right: 10px;
+}
+
+.week h4 {
+  float: left;
+}
+
+h4 {
+  padding-bottom: 20px;
+}
+
+.hour {
+  padding-bottom: 18px;
+  text-align: center;
+}
+
+.hour h4 {
+  padding-bottom: 40px;
+}
+
+.week {
+  margin: 30px 0px;
+}
+
+.day {
+  background-image: url(../img/icon_sunny.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  padding: 10px 40px 10px 0px;
+  margin: 0px 5px;
+}
+
+.day.rain {
+  background-image: url(../img/icon_rain.png);
+  background-repeat: no-repeat;
+}
+
+.day.cloudy {
+  background-image: url(../img/icon_cloudy.png);
+  background-repeat: no-repeat;
+}
+
+.hour {
+  background-image: url(../img/icon_sunny.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: auto;
+}
+
+.hour.cloudy {
+  background-image: url(../img/icon_cloudy.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.hour.rain {
+  background-image: url(../img/icon_rain.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+
+
+
+
+
+
